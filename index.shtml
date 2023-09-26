@@ -1,1 +1,18 @@
 <!-- You implement -->
+<!DOCTYPE html>
+
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <title>Terp Store</title>
+
+    </head>
+    <body>
+        <h1 id="headerTitle"><mark>Terp Store</mark></h1>
+        <div id="links"><a href="catalogInquiry.shtml">Catalog Inquiry.</a> <br> <a href="placingOrder.shtml">Placing Order</a></div>
+
+    </body>
+
+</html>
