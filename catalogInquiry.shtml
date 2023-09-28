@@ -1,1 +1,49 @@
 <!-- You implement -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Catalog Inquiry.</title>
+</head>
+<body>
+    <h1 id="headerTitle"><mark>Catalog Inquiry</mark></h1>
+        <form action="http://npp.cs.umd.edu/cmsc335/projects/TerpStore/catalogInquiry.php" method="get">
+            <label id="item-choice">Item Category</label>
+            <select name="item-choice" required autofocus>
+                <option value="" disabled selected label="Choose an option"></option>
+                <option value="clothes">Clothes</option>
+                <option value="books">Books</option>
+                <option value="music">Music</option>
+                <option value="food">Food</option>
+                <option value="other">Other</option>
+
+            </select>
+            <br><br>
+            <label id="maximumCost">Maximum Cost($)</label>
+            <input type="number" id="maximumCost-input" name="maximumCost" min="1" max="1000" step="5" value="1">
+            <br><br>
+            <input id="campusAvailability" type="checkbox" name="availableOnCampus">
+            <label id="avail">Available on Campus</label>
+            <br><br>
+            <input id="onlineInput" type="checkbox" name="availableOnline" checked>
+            <label id="onlineLabel">Available Online</label>
+            <br><br>
+            <label id="info">Additional Information</label>
+            <br>
+            <input id="addInfo" type="text" name="info">
+            <br><br>
+            <label id="emailLabel">Contact Email Address:</label>
+            <input id="emailInput" type="email" name="email" placeholder="example@terpmail.umd.edu">
+            <br>
+            <input id="submitButton" type="submit" value="Submit Inquiry">
+            <input id="clearButton" type="reset" value="Clear">
+
+        </form>
+
+    <div id="bottomBorder2"><h2><!--#include virtual="footer.shtml" --></h2></div>
+    
+</body>
+</html>

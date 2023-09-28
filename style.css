@@ -38,3 +38,166 @@ mark{
     font-size: 2rem;
     margin-top: 15rem;
 }
+a:link{
+    color: brown;
+}
+a:visited{
+    color: beige;
+}
+a:hover{
+    font-size: 1.8rem;
+}
+#bottomBorder{
+    border: 0.5rem solid #acd8e6;
+    width: 64rem;
+    height: 5.5rem;
+    margin-top: 25rem;
+}
+h2{
+    background-color: red;
+    border: 0.8rem ridge #c0c0c0;
+    margin-top: 0rem;
+    height: 3rem;
+    text-align: center;
+    padding-top: 1rem;
+    font-size: 2rem;
+    color: beige;
+    text-decoration: underline;
+}
+form{
+    width: 40rem;
+    height: 35rem;
+    border: 0.5rem solid azure;
+    background-color: rgba(255, 255, 255, 0.85);
+    margin-left: 5rem;
+    padding-top: 2rem;
+}
+#bottomBorder2{
+    border: 0.5rem solid #acd8e6;
+    width: 64rem;
+    height: 5.5rem;
+    margin-top: 4.3rem;
+}
+label{
+    font-size: 2rem;
+    text-decoration: underline;
+    margin-left: 1.5rem;
+}
+select{
+    width: 13rem;
+    height: 2rem;
+    border-color: red;
+    margin-left: 1rem;
+}
+input{
+    margin: 0;
+    width: 6rem;
+    height: 1.5rem;
+    border: 0.2rem solid red;
+    margin-left: 2rem;
+}
+#campusAvailability{
+    margin: 0;
+    margin-left: -1rem;
+}
+#avail{
+    margin: 0;
+}
+#onlineInput{
+    margin: 0;
+    margin-left: -1rem;
+}
+#onlineLabel{
+    margin: 0;
+}
+#addInfo{
+    margin: 0;
+    margin-left: 1rem;
+    width: 37rem;
+    padding-bottom: 9rem;
+    font-size: 1.5rem;
+    border: none;
+}
+#emailInput{
+    margin: 0;
+    margin-left: 1rem;
+    width: 16rem;
+}
+#submitButton{
+    width: 10rem;
+    height: 3rem;
+    margin-top: 0.5rem;
+    border-radius: 0.5rem;
+    border-color: black;
+    border-style: double;
+}
+#clearButton{
+    width: 10rem;
+    height: 3rem;
+    border-radius: 0.5rem;
+    border-color: black;
+    border-style: double;
+}
+#orderForm{
+    margin: 0;
+    width: 40rem;
+    height: 20rem;
+    border: 0.5rem solid azure;
+    background-color: rgba(255, 255, 255, 0.85);
+    margin-left: 5rem;
+}
+#bottomBorder3{
+    border: 0.5rem solid #acd8e6;
+    width: 64rem;
+    height: 5.5rem;
+    margin-top: 19.3rem;
+}
+#serialLabel{
+    margin: 0;
+    margin-left: 1rem;
+}
+#serialInput{
+    margin: 0;
+    margin-left: 1rem;
+    width: 12rem;
+}
+#creditCard{
+    margin: 0;
+    margin-left: 1rem;
+}
+#cc1{
+    width: 3rem;
+}
+#cc2{
+    width: 3rem;
+    margin-left: 1rem;
+}
+#cc3{
+    width: 3rem;
+    margin-left: 1rem;
+}
+#cc4{
+    width: 3rem;
+    margin-left: 1rem;
+}
+span{
+    margin-left: 1rem;
+}
+#shippingLabel{
+    margin: 0;
+    margin-left: 1rem;
+}
+#shippingInput{
+    margin: 0;
+    margin-left: 1rem;
+    width: 15rem;
+}
+#emailLabel{
+    margin: 0;
+    margin-left: 1rem;
+}
+#emailInput{
+    margin: 0;
+    margin-left: 1rem;
+    width: 18rem;
+}
